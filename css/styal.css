@@ -1,0 +1,1189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    width: 1170px;
+    height: 1600px;
+    margin: auto;
+    background-color: #F1F0EF;
+}
+
+.top-content {
+    width: 1170px;
+    height: 40px;
+    background: #343130;
+}
+
+.top-left {
+    width: 400px;
+    height: 40px;
+
+    float: left;
+}
+
+.top-right {
+    width: 290px;
+    height: 40px;
+
+    float: right;
+}
+
+.top-left-img {
+    float: left;
+    margin: 10px 13px 0px 23px;
+}
+
+.top-left-content {
+    font-size: 20px;
+    font-family: verdana;
+    color: white;
+    text-decoration: inherit;
+    padding-top: 8px;
+}
+
+.menu-bar {
+    width: 1170px;
+    height: 140px;
+    background: white;
+
+}
+
+.menu-left-col {
+    width: 265px;
+    height: 140px;
+
+    float: left;
+}
+
+.menu-img {
+    width: 165px;
+    height: 125px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+
+}
+
+.menu-right-col {
+    width: 900px;
+    height: 140px;
+    float: right;
+    transition: 1s;
+}
+
+.menu-right-a {
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    color:#343130;
+    float: left;
+    margin: 100px 0px 0px 63px;
+    /* transition: 1s; */
+}
+
+.menu-right-a:hover {
+    color: #00A8EC;
+}
+
+.main-contant {
+    width: 1170px;
+    height: 755px;
+    background: white;
+}
+
+.main-contant-1 {
+    width: 1130px;
+    height: 735px;
+    border: 20px solid #f1f0ef;
+    border-bottom: none;
+}
+
+.main-contant-lef {
+    width: 260px;
+    height: 750px;
+    float: left;
+
+}
+
+.main-contant-right {
+    width: 830px;
+    height: 440px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 35px;
+
+
+}
+
+.main-contant-img {
+    width: 830px;
+    height: 455px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.menu-itme-left {
+    width: 250px;
+    height: 40px;
+    background-color: #00a8ec;
+    font-size: 20px;
+    font-family: arial;
+    margin: 2px 0px 0px 10px;
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+
+.menuo-itme-left-a {
+    padding: 10px 60px;
+    color: white;
+}
+
+.menu-left-bottam {
+    width: 250px;
+    height: 360px;
+    margin: 10px 0px 0px 12px;
+    /* border: 1px solid rgb(0, 0,0); */
+}
+
+.menu-left-new {
+    width: 250px;
+    height: 45px;
+    padding-top: 15px;
+    background-color: #ef9c00;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.new-list {
+    /* padding-top: 10px;
+    margin-left: 10px; */
+    border-top: none;
+    border: 1px solid #908c89;
+}
+
+.new-img {
+    width: 12px;
+    height: 11px;
+    margin-right: 2px;
+    border-radius: 50%;
+}
+
+.new-text {
+    width: 248.400px;
+    height: 40px;
+    font-family: arial;
+    font-size: 16px;
+    margin: 10px 0px 0px 10px;
+
+}
+
+.course-conatiner {
+    width: 841.5px;
+    height: 270px;
+    /* border: 1px solid chartreuse; */
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.course {
+    width: 170px;
+    height: 50px;
+    font-size: 30px;
+    font-family: arial;
+    color: #00a8ec;
+    margin: -5px 0px 0px 0px;
+    font-weight: bolder;
+}
+
+.course-box-left {
+    width: 390.8px;
+    height: 236.4px;
+    float: left;
+}
+
+.course-box-right {
+    width: 415.750px;
+    height: 236.400px;
+    float: right;
+}
+
+.course-php-img {
+    width: 34px;
+    height: 34px;
+    background-color: #E6611c;
+    margin: 0px 20px 0px 0px;
+    float: left;
+    border-radius: 50%;
+}
+
+.course-php {
+    width: 380.8px;
+    height: 21.6px;
+    font-size: 18.72px;
+    font-family: arial;
+    margin: 30px 0px 0px 10px;
+    color: #E6611c;
+    float: left;
+    font-weight: normal;
+}
+
+
+
+.course-adv-img {
+    width: 34px;
+    height: 34px;
+    margin: 0px 20px 0px 0px;
+    background-color: #5E5dA4;
+    float: left;
+    border-radius: 50%;
+}
+
+.course-adv {
+    color: #5E5DA4;
+    width: 380.8px;
+    height: 21.6px;
+    font-size: 18.72px;
+    font-family: arial;
+    margin: 30px 0px 0px 10px;
+    float: left;
+    font-weight: normal;
+}
+
+.course-python-img {
+    width: 34px;
+    height: 34px;
+    margin: 0px 20px 0px 0px;
+    background-color: #7BB1E0;
+    float: left;
+    border-radius: 50%;
+}
+
+.course-python {
+    color: #7BB1E0;
+    width: 380.8px;
+    height: 21.6px;
+    font-size: 18.72px;
+    font-family: arial;
+    margin: 30px 0px 0px 10px;
+    float: left;
+    font-weight: normal;
+}
+
+.course-android-img {
+    width: 34px;
+    height: 34px;
+    margin: 0px 20px 0px 0px;
+    background-color: #89C222;
+    float: left;
+    border-radius: 50%;
+}
+
+.course-android {
+    color: #89C222;
+    width: 380.8px;
+    height: 21.6px;
+    font-size: 18.72px;
+    font-family: arial;
+    margin: 30px 0px 0px 10px;
+    float: left;
+    font-weight: normal;
+}
+
+.course-digital-img {
+    width: 34px;
+    height: 34px;
+    background: #5E5DA4;
+    margin-right: 20px;
+    float: left;
+    border-radius: 50%;
+}
+
+.course-digital {
+    width: 405.75px;
+    height: 21.6px;
+    font-size: 18.72px;
+    font-family: arial;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+    color: #5E5DA4;
+    font-weight: normal;
+}
+
+.course-Graphic-img {
+    width: 34px;
+    height: 34px;
+    background: #D60726;
+    margin-right: 20px;
+    float: left;
+    border-radius: 50%;
+}
+
+.course-Graphic {
+    width: 405.75px;
+    height: 21.6px;
+    font-size: 18.72px;
+    font-family: arial;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+    color: #D60726;
+    font-weight: normal;
+}
+
+.course-Search-img {
+    width: 34px;
+    height: 34px;
+    background: #308A7C;
+    margin-right: 20px;
+    float: left;
+    border-radius: 50%;
+}
+
+.course-Search {
+    width: 405.75px;
+    height: 21.6px;
+    font-size: 18.72px;
+    font-family: arial;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+    color: #308A7C;
+    font-weight: normal;
+}
+
+.course-Wordpress-img {
+    width: 34px;
+    height: 34px;
+    background: #E6611C;
+    margin-right: 20px;
+    float: left;
+    border-radius: 50%;
+}
+
+.course-Wordpress {
+    width: 405.75px;
+    height: 21.6px;
+    font-size: 18.72px;
+    font-family: arial;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+    color: #E6611C;
+    font-weight: normal;
+}
+
+.how-to-work {
+    width: 1170px;
+    height: 37.4px;
+    font-family: arial;
+    font-size: 30px;
+    color: #00A8EC;
+    padding: 20px 0px 15px 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.how-to-work-box {
+    width: 1110px;
+    height: 220px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background: white;
+
+}
+
+.how-to-work-1 {
+    width: 270px;
+    height: 220px;
+    background: url(../images/how/HOW-WE-WORK1.png) no-repeat;
+    background-position: center bottom;
+    background-size: auto;
+    float: left;
+    margin-right: 4px;
+
+}
+
+.how-img-1 {
+    width: 100%;
+    height: 150px;
+    background: rgba(188, 72, 109, 0.8);
+    padding-top: 70px;
+}
+
+.how-to-work-2 {
+    width: 270px;
+    height: 220px;
+    background: url(../images/how/HOW-WE-WORK2.png) no-repeat;
+    background-position: center bottom;
+    background-size: auto;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+
+}
+
+.how-img-2 {
+    width: 100%;
+    height: 150px;
+    background: rgba(233, 79, 113, 0.8);
+    padding-top: 70px;
+}
+
+
+
+.how-to-work-3 {
+    width: 270px;
+    height: 220px;
+    background: url(../images/how/HOW-WE-WORK3.png) no-repeat;
+    background-position: center bottom;
+    background-size: auto;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.how-img-3 {
+    width: 100%;
+    height: 150px;
+    background: rgba(237, 136, 56, 0.8);
+    padding-top: 70px;
+}
+
+
+
+.how-to-work-4 {
+    width: 255px;
+    height: 220px;
+    background: url(../images/how/HOW-WE-WORK4.png) no-repeat;
+    background-position: center bottom;
+    background-size: auto;
+    float: left;
+    margin-left: 8px;
+}
+
+.how-img-4 {
+    width: 100%;
+    height: 150px;
+    background: rgba(244, 183, 65, 0.8);
+    padding-top: 70px;
+}
+
+
+.bottam-bar {
+    width: 1170px;
+    height: 295px;
+    padding-top: 25px;
+    background: rgb(52, 49, 48);
+
+}
+
+.Quick-Links {
+    width: 225px;
+    height: 295px;
+    padding-left: 70px;
+    text-align: center;
+    float: left;
+}
+
+.quick-links-text {
+    width: 180px;
+    height: 40px;
+    font-size: 24px;
+    font-family: arial;
+    color: #efeceb;
+    font-weight: bold;
+    /* padding-top: 70px; */
+
+}
+
+.quick-link-itam {
+    width: 160.69px;
+    height: 17.6px;
+    font-size: 16px;
+    font-family: arial;
+    color: #efeceb;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.training-box {
+    width: 520px;
+    height: 295px;
+    margin-left: 30px;
+    float: left;
+}
+
+.tarining-text {
+    width: 520px;
+    height: 40px;
+    font-size: 24px;
+    font-family: arial;
+    color: #efeceb;
+    font-weight: bolder;
+
+}
+
+.training-itams-left {
+    width: 249.6px;
+    height: 253px;
+    margin-left: 10px;
+    float: left;
+}
+
+.trainig-itms-left-text {
+    width: 189.6px;
+    height: 17.6px;
+    font-size: 16px;
+    font-family: arial;
+    color: #efeceb;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+.training-itms-right {
+    width: 246.6px;
+    height: 253px;
+    margin-left: 10px;
+    float: right;
+}
+
+.training-itams-right-text {
+    width: 198.34px;
+    height: 17.6px;
+    font-size: 16px;
+    font-family: arial;
+    color: #efeceb;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.contact-info {
+    width: 320px;
+    height: 295px;
+    float: right;
+}
+
+.contact-info-text {
+    width: 320px;
+    height: 40px;
+    font-size: 24px;
+    font-family: arial;
+    color: white;
+}
+
+.contact-into-details {
+    width: 305px;
+    height: 140px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.contact-info-itams-1 {
+    width: 200pxx;
+    height: 18.4px;
+    font-size: 16px;
+    font-family: arial;
+    margin-top: 20px;
+    color: #efeceb;
+    margin-left: 20px;
+    margin: 20px;
+}
+
+.contact-info-itams-2 {
+    width: 200px;
+    font-size: 16px;
+    font-family: arial;
+    margin-left: 20px;
+    color: white;
+}
+
+.contact-img-insta {
+    width: 34px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.contacrt-img-twitter {
+    width: 34px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+
+}
+
+.contacrt-img-facebook {
+    width: 34px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+
+}
+
+.contacrt-img-linked {
+    width: 34px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+
+}
+
+.ending {
+    width: 1170px;
+    height: 40px;
+    font-size: 18px;
+    font-family: arial;
+    color: white;
+    background: #302D2C;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.main2 {
+    width: 1170px;
+    height: 1309.180px;
+    margin: auto;
+    background-color: #F1F0EF;
+}
+
+.middle-right {
+    width: 849.994px;
+    height: 750px;
+    float: left;
+}
+
+.page-status {
+    width: 816px;
+    height: 30px;
+    background: white;
+    font-size: 15px;
+    font-family: arial;
+    margin-bottom: 15px;
+    padding: 10px;
+    float: left;
+}
+
+.h3 {
+    width: 300px;
+    height: 30px;
+    color: #343130;
+    font-size: 32px;
+    font-family: arial;
+    font-weight: bold;
+    float: left;
+}
+
+.h2 {
+    width: 300px;
+    height: 30px;
+    color: #343130;
+    font-size: 32px;
+    font-family: arial;
+    /* font-weight: bold; */
+    float: left;
+}
+
+.i {
+    width: 190.03px;
+    height: 26.4px;
+    color: #00A8EC;
+    font-size: 24px;
+    font-family: arial;
+    float: left;
+}
+
+.page-status-right {
+    width: 300px;
+    height: 27px;
+    float: right;
+}
+
+.page-status-box {
+    width: 850px;
+    height: 750px;
+    margin-top: 40px;
+}
+
+.page-line1 {
+    width: 850px;
+    height: 39.6px;
+    font-size: 18px;
+    font-family: arial;
+    color: black;
+    margin-top: 22px;
+    text-align: justify;
+    float: right;
+}
+
+.page-why-iip {
+    width: 850px;
+    height: 41.6px;
+    font-size: 18px;
+    font-family: arial;
+    color: black;
+    margin-top: 22px;
+    text-align: justify;
+    float: right;
+    font-weight: bold;
+}
+
+.why-iip-list {
+    width: 840px;
+    height: 18.4px;
+    color: black;
+    font-size: 16px;
+    font-family: arial;
+    float: left;
+}
+
+.menu3 {
+    width: 1170px;
+    height: 1309.180px;
+
+    margin-left: 50%;
+    margin-right: 50%;
+    background-color: #F1F0EF;
+    float: right;
+}
+
+.courses-img-box {
+    width: 850px;
+    height: 760px;
+    padding: 10px 30px 0px 0px;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.courses-col1 {
+    width: 800px;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+
+}
+
+
+.course-col1-box1 {
+    width: 210px;
+    height: 232px;
+    /* border: 0.8px solid darkgoldenrod; */
+    float: left;
+    margin-left: 55px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-php-top {
+    width: 210px;
+    height: 140px;
+    background: #e6611c;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-php-top-icon {
+    width: 87px;
+    height: 80px;
+    border: 9.6px solid white;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 41.9px;
+    margin-right: 41.9px;
+
+}
+
+.courses-php-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid #E6611C;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.courses-php-bottom-text {
+    width: 203px;
+    height: 60px;
+    color: #e6611c;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: normal;
+
+
+}
+
+.courses-python-top {
+    width: 210px;
+    height: 140px;
+    background: #7bb1e0;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-python-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid #7bb1e0;
+}
+
+.courses-python-bottom-text {
+    width: 208px;
+    height: 40px;
+    color: #7bb1e0;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.courses-advance-top {
+    width: 210px;
+    height: 140px;
+    background: #5e5da4;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-advance-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid #5e5da4;
+}
+
+.courseso-advance-bottom-text {
+    width: 208px;
+    height: 40px;
+    color: #5e5da4;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.courses-col2-box1 {
+    width: 210px;
+    height: 140px;
+    background: #308a7c;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-SEO-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid #308a7c;
+}
+
+.courses-SEO-bottom-text {
+    width: 208px;
+    height: 40px;
+    color: #308a7c;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.courses-col2-box2 {
+    width: 210px;
+    height: 140px;
+    background: #89c222;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-android-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid #89c222;
+}
+
+.couses-android-text {
+    width: 208px;
+    height: 40px;
+    color: #89c222;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.courses-col2-box3 {
+    width: 210px;
+    height: 140px;
+    background: #d60726;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-graphic-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid #d60726;
+}
+
+.couses-graphic-text {
+    width: 208px;
+    height: 40px;
+    color: #d60726;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.courses-col3-box1 {
+    width: 210px;
+    height: 140px;
+    background: #5e5da4;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-digital-marketing-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid #5e5da4
+}
+
+.couses-digital-marketing-text {
+    width: 208px;
+    height: 40px;
+    color: #5e5da4;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.courses-col3-box2 {
+    width: 210px;
+    height: 140px;
+    background: #e6611c;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-Wordpress-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid #e6611c
+}
+
+.couses-Wordpress-text {
+    width: 208px;
+    height: 40px;
+    color: #e6611c;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.courses-col3-box3 {
+    width: 210px;
+    height: 140px;
+    background: darkgreen;
+    padding-top: 20px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.courses-java-bottom {
+    width: 208px;
+    height: 70px;
+    border: 0.8px solid darkgreen
+}
+
+.couses-Wordpress-text {
+    width: 208px;
+    height: 40px;
+    color: darkgreen;
+    font-size: 20px;
+    font-family: arila;
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.gallery-box1 {
+    width: 225px;
+    height: 220px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 36px;
+    float: left;
+    margin-top: 20px;
+}
+
+.gallery-title-1 {
+    width: 225px;
+    height: 26.8px;
+    color: white;
+    font-size: 18px;
+    font-family: arial;
+    background: #343130;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Enquiry-box {
+    width: 850px;
+    height: 681.2px;
+    border: 0.8px solid darkblue;
+}
+
+.Equiry-row-1 {
+    width: 500px;
+    height: 20.4px;
+    color: #5b5b5b;
+    font-size: 12px;
+    font-family: arial;
+    border: 0.5px solid firebrick;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.Equiry-headings {
+    width: 100px;
+    height: 18.4px;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-weight: bolder;
+}
+
+.Gender-sex {
+    width: 13px;
+    height: 13px;
+    float: left;
+}
+
+.contact-row1 {
+    width: 800px;
+    height: 250px;
+    color: black;
+    font-size: 16px;
+    font-family: arial;
+    padding: 0px 25px;
+}
+
+.contact-row1-col1 {
+    width: 320px;
+    height: 250px;
+    float: left;
+}
+
+.img-phone {
+    width: 50px;
+    height: 84.875px;
+    margin-left: 130px;
+}
+
+.contact-row1-col2 {
+    width: 270px;
+    height: 250px;
+    margin-left: 100px;
+    margin-right: 70px;
+    float: right;
+}
+
+.contact-row1-col2-text {
+    width: 270px;
+    height: 60px;
+    color: #343130;
+    font-size: 17px;
+    font-family: arial;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-row2 {
+    width: 800px;
+    height: 36px;
+    color: black;
+}
+
+.h1 {
+    width: 800px;
+    height: 36px;
+    color: #302D2C;
+    font-size: 32px;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+.contact-map {
+    width: 770px;
+    height: 450px;
+    margin-top: 20px;
+}
